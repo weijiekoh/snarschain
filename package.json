@@ -1,0 +1,33 @@
+{
+  "name": "snarschain",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A snark-based sidechain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weijiekoh/snarschain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weijiekoh/snarschain/issues"
+  },
+  "homepage": "https://github.com/weijiekoh/snarschain#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.15",
+    "big-integer": "^1.6.40",
+    "circom": "0.0.22",
+    "cirpedersen": "git+https://github.com/iden3/circomlib.git",
+    "snarkjs": "^0.1.7"
+  }
+}
